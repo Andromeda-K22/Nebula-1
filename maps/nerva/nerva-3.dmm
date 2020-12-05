@@ -1310,7 +1310,6 @@
 "cX" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 4;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "fuel_in";
 	pixel_y = 1;
@@ -2240,7 +2239,6 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Chief Engineer's Desk";
-	departmentType = 3;
 	name = "Chief Engineer RC";
 	pixel_x = 0;
 	pixel_y = 32
@@ -5491,7 +5489,6 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Captain's Desk";
-	departmentType = 5;
 	name = "Captain RC";
 	pixel_x = -30;
 	pixel_y = 0
@@ -10392,7 +10389,6 @@
 "uy" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "co2_in";
 	pixel_y = 1;
@@ -11266,7 +11262,6 @@
 "ww" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "h2_in";
 	pixel_y = 1;
@@ -11687,7 +11682,6 @@
 "xq" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 4;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "n2_in";
 	use_power = 1
@@ -12018,7 +12012,6 @@
 "xZ" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 8;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "n2o_in";
 	pixel_y = 1;
@@ -12852,7 +12845,6 @@
 "zB" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 1;
-	frequency = 1441;
 	icon_state = "map_injector";
 	id_tag = "o2_in";
 	use_power = 1
@@ -15910,7 +15902,7 @@
 "Vl" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized/full{
-	id_tag = "chaplain"
+	tag = "chaplain"
 	},
 /turf/simulated/floor,
 /area/civilian/counselor)
@@ -16093,7 +16085,7 @@
 /area/hallway/aft/second_deck)
 "WY" = (
 /obj/machinery/power/sensor{
-	name_tag = "Atmospherics Power"
+	id_tag = "Atmospherics Power"
 	},
 /obj/structure/cable/cyan{
 	d2 = 4;
@@ -16256,7 +16248,7 @@
 /area/civilian/counselor)
 "Ya" = (
 /obj/machinery/power/sensor{
-	name_tag = "Second Deck Power"
+	id_tag = "Second Deck Power"
 	},
 /obj/structure/cable{
 	d2 = 8;

@@ -592,7 +592,6 @@
 /obj/machinery/requests_console{
 	announcementConsole = 1;
 	department = "Medbay";
-	departmentType = 1;
 	name = "Medbay RC";
 	pixel_x = -31;
 	pixel_y = 0;
@@ -1988,7 +1987,7 @@
 /area/security/interrogation)
 "aez" = (
 /obj/structure/closet/secure_closet/brig{
-	id_tag = "Cell 1";
+	tag = "Cell 1";
 	name = "Cell 1 Locker"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2014,7 +2013,7 @@
 /area/security/brig)
 "aeB" = (
 /obj/structure/closet/secure_closet/brig{
-	id_tag = "Cell 2";
+	tag = "Cell 2";
 	name = "Cell 2 Locker"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2037,7 +2036,7 @@
 /area/security/brig)
 "aeD" = (
 /obj/structure/closet/secure_closet/brig{
-	id_tag = "Cell 3";
+	tag = "Cell 3";
 	name = "Cell 3 Locker"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -4306,7 +4305,7 @@
 "aiz" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/sensor{
-	name_tag = "Third Deck Power"
+	id_tag = "Third Deck Power"
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -9598,7 +9597,7 @@
 "arz" = (
 /obj/machinery/power/sensor{
 	name = "Powernet Sensor - Master Grid";
-	name_tag = "Master"
+	id_tag = "Master"
 	},
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/yellow{
@@ -13263,14 +13262,12 @@
 "awV" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/simulated/floor/grass{
-	icon = 'icons/jungle.dmi';
 	icon_state = "grass3"
 	},
 /area/civilian/hydro)
 "awW" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/grass{
-	icon = 'icons/jungle.dmi';
 	icon_state = "grass3"
 	},
 /area/civilian/hydro)
@@ -15339,7 +15336,6 @@
 "aAH" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 4;
-	frequency = 1438;
 	icon_state = "map_injector";
 	id_tag = "cooling_in";
 	name = "Coolant Injector";
@@ -15835,7 +15831,7 @@
 	dir = 4;
 	icon_state = "pdoor1";
 	name = "Supply Shuttle";
-	p_open = 0
+	panel_open = 0
 	},
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/reinforced/airless,
@@ -17677,7 +17673,7 @@
 	},
 /obj/machinery/power/sensor{
 	name = "Powernet Sensor - Supermatter Power";
-	name_tag = "Supermatter Power"
+	id_tag = "Supermatter Power"
 	},
 /obj/structure/cable/cyan,
 /turf/simulated/floor,
@@ -19906,7 +19902,6 @@
 "aID" = (
 /obj/machinery/requests_console{
 	department = "Janitorial";
-	departmentType = 1;
 	pixel_y = -29
 	},
 /obj/machinery/camera/network/third_deck{
@@ -19966,7 +19961,6 @@
 	},
 /obj/machinery/requests_console{
 	department = "Cargo Bay";
-	departmentType = 2;
 	pixel_x = -30;
 	pixel_y = 30
 	},
@@ -25484,7 +25478,7 @@
 /obj/structure/cable/blue,
 /obj/machinery/power/sensor{
 	name = "Telecommunications Subnet Sensor";
-	name_tag = "Tcomms Subnet"
+	id_tag = "Tcomms Subnet"
 	},
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/lightgrey{

@@ -33,7 +33,6 @@
 /area/hallway/centralfirst)
 "ai" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_exterior";
 	locked = 1;
@@ -43,7 +42,6 @@
 /area/hallway/centralfirst)
 "aj" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_exterior";
 	locked = 1;
@@ -61,7 +59,6 @@
 /area/hallway/centralfirst)
 "al" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1380;
 	id_tag = "merchant_shuttle_station_sensor";
 	pixel_x = -24;
 	pixel_y = 8
@@ -94,7 +91,6 @@
 /area/hallway/centralfirst)
 "ao" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_interior";
 	locked = 1;
@@ -108,7 +104,6 @@
 /area/hallway/centralfirst)
 "ap" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "merchant_shuttle_station_interior";
 	locked = 1;
@@ -142,7 +137,6 @@
 "au" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	display_name = "Port Dock A";
-	frequency = 1380;
 	id_tag = "merchant_shuttle_station_dock";
 	pixel_x = 24;
 	pixel_y = 24;
@@ -3819,7 +3813,7 @@
 	},
 /obj/machinery/power/sensor{
 	name = "Powernet Sensor - AI Subgrid";
-	name_tag = "AI Subgrid"
+	id_tag = "AI Subgrid"
 	},
 /obj/structure/cable/cyan{
 	d2 = 8;
@@ -4198,7 +4192,6 @@
 	},
 /obj/machinery/requests_console{
 	department = "AI";
-	departmentType = 5;
 	pixel_x = -32;
 	pixel_y = -32
 	},
@@ -6892,7 +6885,7 @@
 "mZ" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/machinery/power/sensor{
-	name_tag = "First Deck Power"
+	id_tag = "First Deck Power"
 	},
 /obj/structure/cable{
 	d2 = 8;
@@ -8577,7 +8570,6 @@
 "qj" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	display_name = "Starboard Dock";
-	frequency = 1380;
 	id_tag = "skipjack_shuttle_dock_airlock";
 	pixel_x = 24;
 	pixel_y = -24;
@@ -8610,7 +8602,6 @@
 /area/maintenance/first_deck/afs)
 "qn" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "skipjack_shuttle_dock_inner";
 	locked = 1;
@@ -8624,7 +8615,6 @@
 /area/hallway/centralfirst)
 "qo" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "skipjack_shuttle_dock_inner";
 	locked = 1;
@@ -8661,7 +8651,6 @@
 /area/maintenance/first_deck/afs)
 "qr" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1380;
 	id_tag = "skipjack_shuttle_dock_sensor";
 	pixel_x = -24;
 	pixel_y = 8
@@ -8690,7 +8679,6 @@
 /area/hallway/centralfirst)
 "qt" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "skipjack_shuttle_dock_outer";
 	locked = 1;
